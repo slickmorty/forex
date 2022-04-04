@@ -1,78 +1,16 @@
 
+Making the server application : {
 
-data : {
-    1 - get data
-
-    2 - preprocessing : {
-        1 : clean 
-        2 : calculate more data
+    1 | Making sure the model works fine : [
         
-        3 : new class : {
-            1 - normalization
-            2 - data windowing
-        }
-    }
+        1.1 | Test it on test data  ,                       
+        1.2 | See wether the propbibility numbers match ,
+        1.3 | 
+    ]   ,
+    
+    2 | Getting the data from metatrader : [
 
-}
-
-model : {
-    1 : Dense
-    2 : CNN 
-    3 : LSTM : {
-                1-return_sequences
-                2-return_state
-            }
-    4 : ARLSTM
-    5 : trasnformators
-}
-
-farda : {
-    1- model folder : each model has its own folder
-    2- each model has its own figure in figure folder
-    3- each model has its own prediction data as csv
-    4- each model has its own tensorboard
-    5- save model in its folder
-    6- steamlit sth 	
-}
-
-{
-    modelcheckpoint
-	cudnnlstm
-}
-
-
-
-from typing import Any
-
-class a:
-    def __init__(self,**kwargs) -> None:
-        self.asd = kwargs.get('asd')
-
-    def __call__(self, *args: Any, **kwds: Any) -> Any:
-        self.xqc= kwds.get('xqc')
-        print(self.xqc)
-
-
-
-
-
-ravand : {
-    1- 1 output model
-    2- functional model approach
-    3- usefull indicators : [
-        1-RSI
-        2-CCI
-        3-STOCH
-        4-STOCH_SIGNAL
-        5-Boll_Percent
-        6-WILL_R
-        7-DON_CHIAN_pband
-        8-MAYBE : [
-                ADX_Pos
-                ADX_Neg
-            ]
-        9-Aroon
-        10-MFI
-        
+        2.1 | Seeing how to get data from metatrader
     ]
+
 }

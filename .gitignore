@@ -3,9 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 models
+tmp
+wandb
 *.png
-test.*
-sth.py
+test*.*
+tensorboard_test.py
 
 
 # C extensions
