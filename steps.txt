@@ -14,3 +14,4 @@ Making the server application : {
     ]
 
 }
+fucked up saving model so u have to change all test_input and stuff are all changed cause they are random

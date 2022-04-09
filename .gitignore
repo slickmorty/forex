@@ -8,6 +8,7 @@ wandb
 *.png
 test*.*
 tensorboard_test.py
+*.pickle
 
 
 # C extensions
