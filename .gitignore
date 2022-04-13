@@ -9,6 +9,7 @@ wandb
 test*.*
 tensorboard_test.py
 *.pickle
+*.csv
 
 
 # C extensions
